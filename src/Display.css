@@ -1,0 +1,94 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;   
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.title {
+    justify-content: first baseline;
+    float: inline-start;
+    text-align: center;
+}
+
+.selectCity {
+    height: 200px;
+    width: 20%;
+    margin: 20ch
+}
+
+.menuButton {
+        width: 4%;
+        right: 20px;   
+}
+
+.menuButton2 {
+    width: 20%;
+    left: 8px;
+}
+
+.Drawer {
+    width: 200;
+}
+
+.form2 {
+    justify-content: initial;
+    float: right;
+    width: 40ch
+    
+}
+
+.form1 {
+    margin-left: 40ch;
+}
+
+.column {
+    float: left;
+    width: 14%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.temperature, .location {
+    height: 23vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around；
+
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.Link1 {
+    float: right;
+    height: 400;
+}
